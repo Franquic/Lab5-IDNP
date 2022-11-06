@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_activity"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_radius_button"
+        android:text="Nuevo"
+        android:drawableRight="@drawable/ic_add_new"
+        android:textColor="@color/white" />
+
+    <Button
+
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_stroke_button"
+        android:text="Info. Postulante"
+        android:drawableRight="@drawable/ic_info"
+        android:textColor="@color/colorRed" />
+
+</LinearLayout>
